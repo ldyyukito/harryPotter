@@ -1,5 +1,4 @@
-function Book(type,price) {
-    this.type = type;
+function Book(price) {
     this.price = price;
 }
 
