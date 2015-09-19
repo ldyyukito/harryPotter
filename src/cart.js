@@ -1,6 +1,5 @@
 function Cart() {
   this.cartItems = [];
-
 }
 
 Cart.prototype.classifyBooks = function(books) {
@@ -23,9 +22,7 @@ Cart.prototype.sortBooksArray= function(books) {
   this.classifyBooks(books).forEach(function(val) {
     array.push(val.count);
   });
-  var booksArray = array.sort(function(a,b){
-    return b-a;
-  });
+  var booksArray = array.sort();
   return booksArray;
 };
 

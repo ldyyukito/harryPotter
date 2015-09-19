@@ -28,7 +28,7 @@ describe("Cart", function() {
 
   it("get booksArray", function() {
     var booksArray = cart.sortBooksArray(books);
-    expect(booksArray).toEqual([2, 2, 2, 1, 1]);
+    expect(booksArray).toEqual([1,1,2,2,2]);
   });
 
 });
